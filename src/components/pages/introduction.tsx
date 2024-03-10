@@ -29,16 +29,16 @@ const Introduction: React.FC = () => {
           </h1>
 
           <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
-            dolorum tempora est laborum placeat ad natus itaque, eligendi
-            cupiditate velit soluta commodi quasi pariatur fuga sunt ipsum quo
-            reiciendis nisi!
+            I am a front-end developer with 1 year of experience, passionate
+            about creativity and innovation in building beautiful and efficient
+            web applications.
           </p>
 
           <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
             <Link
-              href={'/projects'}
+              href={'#'}
               className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50"
+              onClick={() => alert('Updating')}
             >
               View Projects
             </Link>
@@ -46,6 +46,7 @@ const Introduction: React.FC = () => {
             <Link
               href={'#'}
               className="px-3 py-2 transition-all border-2 cursor-pointer text-md text-secondary border-secondary w-fit rounded-xl hover:shadow-xl hover:shadow-secondary/50"
+              onClick={() => alert('Updating')}
             >
               View CV
             </Link>

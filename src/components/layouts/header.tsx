@@ -25,6 +25,7 @@ const Header: React.FC = () => {
                   key={id}
                   href={src}
                   className="transition-all duration-300 hover:text-secondary"
+                  target="_blank"
                 >
                   {logo}
                 </Link>
