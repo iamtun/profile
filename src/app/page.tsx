@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cover } from './components';
+import { Cover } from '../components';
 
 const Home = () => {
   return (
